@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriPlan || Smart Family Nutrition Planner</title>
+    <link rel="stylesheet" href="{{url_for('static',filename = 'style.css')}}">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <div style="width: 45px;height: 45px; border-radius: 50%;background:#ffffff;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,0,0,0.2);">
+                <span style="font-size: 24px;color:#2e8b57;font-weight: bold;">🍃</span>
+            </div>
+            <h1 style="font-family: 'Georgia',serif; letter-spacing: 1px;">NutriPlan</h1>
+        </div>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#planner">Meal Planner</a>
+            <a href="#nutrition">Nutrition</a>
+            <a href="{{ url_for('logout') }}" style="color: #ffcccc;">Logout</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome, {{ user }}!</h1>
+        <p>Plan Balanced Daily And Weekly meals using familiar home cooked dishes and get smart nutrition intake for your entire family.</p>
+        <a href="#planner" class="btn">Start Planning</a>
+    </section>
+
+    <section id="features">
+            <h2 style="color: black;">Core Features</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Dish Based Planning</h3>
+                    <p>Select dishes your family already knows and loves</p>
+                </div>
+                <div class="card">
+                    <h3>AI Nutrition Analysis</h3>
+                    <p>Calories,Proteins, carb & fats Calculated Automatically.</p>
+                </div>
+                <div class="card">
+                    <h3>Weekly Meal Chart</h3>
+                    <p>Auto-generated balanced meal plans.</p>
+                </div>
+                <div class="card">
+                    <h3>Whatsapp Grocery Alerts</h3>
+                    <p>Next-day meals & grocery List sent to family members.</p>
+                </div>
+            </div>
+    </section>
+
+    <section id="dish-selection">
+        <h2 style="color: black;">Select Home-Cooked Dishes</h2>
+        <p>Choose dishes your family is comfortable with. NutriPlan Will balance nutrition Automatically.</p>
+        <div class="card-container">
+            <div class="card">
+                <label><input type="checkbox"> Poha</label><br>
+                <label><input type="checkbox"> Idli</label><br>
+                <label><input type="checkbox"> Upma</label><br>
+                <label><input type="checkbox"> Paratha</label><br>
+            </div>
+            <div class="card">
+                <label><input type="checkbox"> Dal Rice</label><br>
+                <label><input type="checkbox"> Rajma Rice</label><br>
+                <label><input type="checkbox"> Chole Rice</label><br>
+                <label><input type="checkbox"> Veg Pulao</label><br>
+            </div>
+            <div class="card">
+                <label><input type="checkbox"> Roti Sabji</label><br>
+                <label><input type="checkbox"> Paneer Curry</label><br>
+                <label><input type="checkbox"> Vegetable Khichdi</label><br>
+                <label><input type="checkbox"> Curd Rice</label><br>
+            </div>
+        </div>
+        <a href="#planner" class="btn">Generate Meal Plan</a>
+    </section>
+
+<section id="planner">
+    <h2 style="color: black;">Weekly Meal Planner (Animated)</h2>
+    <p>The meal plan appears step-by-step, simulating smart planning.</p>
+    <table class="meal-table">
+        <tr>
+            <th>Day</th>
+            <th>Breakfast</th>
+            <th>Lunch</th>
+            <th>Dinner</th>
+        </tr>
+           <tr>
+            <td>Monday</td>
+            <td>Poha</td>
+            <td>Dal Rice</td>
+            <td>Roti Sabji</td>
+        </tr>
+           <tr>
+            <td>Tuesday</td>
+            <td>Oats</td>
+            <td>Rajma Rice</td>
+            <td>Paneer Curry</td>
+        </tr>
+           <tr>
+            <td>Wednesday</td>
+            <td>Idli</td>
+            <td>Curd Rice</td>
+            <td>Vegetable Khichdi</td>
+        </tr>
+           <tr>
+            <td>Thursday</td>
+            <td>Upma</td>
+            <td>Veg Pulao</td>
+            <td>Dal Roti</td>
+        </tr>
+           <tr>
+            <td>Friday</td>
+            <td>Paratha</td>
+            <td>Chole Rice</td>
+            <td>Veg Curry</td>
+        </tr>
+    </table>
+</section>
+
+<section id="nutrition">
+    <h2 style="color: black;">Nutrition Summary </h2>
+    <div class="card-container">
+        <div class="card">
+            <strong>Calories</strong>
+            <div class="bar-bg">
+                <div class="bar-fill" style="--target-width:80%;background:#2e8b57;">2200 kcal</div>
+            </div>
+        </div>
+        <div class="card">
+            <strong>Protein</strong>
+            <div class="bar-bg">
+                <div class="bar-fill" style="--target-width:70%;background:#6fcf97; color: #145a32;">65 g</div>
+            </div>
+        </div>
+        <div class="card">
+            <strong>Carbohydrates</strong>
+            <div class="bar-bg">
+                <div class="bar-fill" style="--target-width:85%;background:#27ae60;">280 g</div>
+            </div>
+        </div>
+
+          <div class="card">
+            <strong>Fats</strong>
+            <div class="bar-bg">
+                <div class="bar-fill" style="--target-width:60%;background:#1f8a70;">70 g</div>
+            </div>
+        </div>
+        
+    </div>
+
+<div class="calorie-compare">
+    <div class="compare-card">
+        <h3>Recommended intake</h3>
+        <p style="font-size: 28px;font-weight:bold;">2400 kcal</p>
+</div>
+<div class="compare-card">
+    <h3>Your Meal Plan</h3>
+    <p style="font-size: 28px;font-weight:bold;color: black;">2200 kcal</p>
+</div>
+<div class="compare-card">
+    <h3>Status</h3>
+    <p style="font-size: 28px;font-weight:bold;color: black;">Within Healthy Range</p>
+</div>
+</div>
+
+
+</section>
+
+<section id="whatsapp">
+
+    <h2 style="color: black;">WhatsApp Reminder Preview</h2>
+    <div class="card">
+        <p><strong>Tomorrow's Meal:</strong> Dal Rice, Roti Sabzi</p>
+         <p><strong>Grocery List:</strong> Rice, Toor Dal, Vegetable</p>
+         <p>This Message Will Be Automatically sent via WhatsApp API.</p>
+    </div>
+</section>
+
+<footer>
+    <p>@2025 NutriPlan | Healthy Families, Better Nutrition</p>
+</footer>
+
+    
+</body>
+</html>
