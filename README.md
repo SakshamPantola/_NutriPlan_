@@ -55,18 +55,17 @@ USER_PASSWORD = "12345678"
 
 ## Team Contributions
 
-Saksham Pantola – Backend Developer
-Developed the core backend logic using Python and Flask. Implemented meal-planning algorithms, nutrition calculations, database integration, and third-party API communication.
-
-Sarthak – Frontend Developer
-Designed and implemented the user interface, including dish selection and nutrition visualization. Currently working on integrating a Machine Learning model for the next development phase.
+Himanshu – Research & Data Analyst
+Collected, validated, and analyzed nutritional datasets. Researched daily dietary requirements and mapped nutritional values for common home-cooked meals.
 
 Chaitanya – Documentation Lead
 Authored comprehensive project documentation, including the README and Data Flow Diagram (DFD). Currently building the WhatsApp reminder feature, which will be implemented in the next development round.
 
-Himanshu – Research & Data Analyst
-Collected, validated, and analyzed nutritional datasets. Researched daily dietary requirements and mapped nutritional values for common home-cooked meals.
+Sarthak – Frontend Developer
+Designed and implemented the user interface, including dish selection and nutrition visualization. Currently working on integrating a Machine Learning model for the next development phase.
 
+Saksham Pantola – Backend Developer
+Developed the core backend logic using Python and Flask. Implemented meal-planning algorithms, nutrition calculations, database integration, and third-party API communication.
 
 
 
