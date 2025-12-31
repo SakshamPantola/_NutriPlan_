@@ -42,3 +42,19 @@ The application can be enhanced by integrating real-time nutrition databases, pe
 
 ## Conclusion
 NutriPlan aims to promote better nutrition planning for families by combining familiar cooking habits with structured meal planning. By increasing nutrition awareness and encouraging shared responsibility within the household, the application supports healthier and more balanced daily diets.
+
+
+## For Login Purpose Use These Credentials:
+
+USER_EMAIL = "himanshubora100@gmail.com"<br>
+USER_PASSWORD = "12345678"
+
+
+## Deployment Link:
+https://nutriplan-c7ev.onrender.com
+
+
+
+
+
+
