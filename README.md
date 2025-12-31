@@ -50,7 +50,7 @@ USER_PASSWORD = "12345678"
 
 
 ## Deployment Link:
-https://nutriplan-c7ev.onrender.com
+{ https://nutriplan-c7ev.onrender.com }
 
 
 ## Team Contributions
