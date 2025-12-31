@@ -43,7 +43,6 @@ The application can be enhanced by integrating real-time nutrition databases, pe
 ## Conclusion
 NutriPlan aims to promote better nutrition planning for families by combining familiar cooking habits with structured meal planning. By increasing nutrition awareness and encouraging shared responsibility within the household, the application supports healthier and more balanced daily diets.
 
-
 ## For Login Purpose Use These Credentials:
 
 USER_EMAIL = "himanshubora100@gmail.com"<br>
@@ -54,6 +53,19 @@ USER_PASSWORD = "12345678"
 https://nutriplan-c7ev.onrender.com
 
 
+👥 Team Contributions
+
+Saksham Pantola – Backend Developer
+Developed the core backend logic using Python and Flask. Implemented meal-planning algorithms, nutrition calculations, database integration, and third-party API communication.
+
+Sarthak – Frontend Developer
+Designed and implemented the user interface, including dish selection and nutrition visualization. Currently working on integrating a Machine Learning model for the next development phase.
+
+Chaitanya – Documentation Lead
+Authored comprehensive project documentation, including the README and Data Flow Diagram (DFD). Currently building the WhatsApp reminder feature, which will be implemented in the next development round.
+
+Himanshu – Research & Data Analyst
+Collected, validated, and analyzed nutritional datasets. Researched daily dietary requirements and mapped nutritional values for common home-cooked meals.
 
 
 
