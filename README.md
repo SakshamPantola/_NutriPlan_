@@ -53,7 +53,7 @@ USER_PASSWORD = "12345678"
 https://nutriplan-c7ev.onrender.com
 
 
-👥 Team Contributions
+## Team Contributions
 
 Saksham Pantola – Backend Developer
 Developed the core backend logic using Python and Flask. Implemented meal-planning algorithms, nutrition calculations, database integration, and third-party API communication.
