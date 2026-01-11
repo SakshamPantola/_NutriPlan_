@@ -56,7 +56,7 @@ Expert Consultation: A platform to connect users with professional dietitians fo
 
 
 ## 👥 Project Contributors (Team NutriPlan)
-## Saksham (sakshampantola) — Backend & Database Lead 🛠️
+## Saksham (sakshampantola,pulpgh) — Backend & Database Lead 🛠️
 
 Developed the Flask server and SQLAlchemy database architecture.
 
