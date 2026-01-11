@@ -1,4 +1,4 @@
-## <h2>NutriPlan – AI-Powered Smart Nutrition Planner<h2>
+## <h2>NutriPlan – Smart Nutrition Planner<h2>
 ## Problem Statement
 Families often struggle to meet daily nutritional requirements due to unplanned meals and limited awareness of the nutritional value of home-cooked dishes. This leads to long-term nutritional imbalances. NutriPlan bridges this gap by transforming traditional cooking habits into a structured, data-driven nutrition strategy.
 
@@ -41,14 +41,13 @@ Database: SQLAlchemy
 
 Intelligence: AI-driven recommendation algorithms
 
+
 ## Future Scope
 Personalized Health Profiles: Customizing meal plans based on specific health goals (e.g., weight loss, muscle gain) or medical conditions (e.g., diabetes, hypertension).
 
 Grocery List Optimization: Automatically generating a consolidated weekly shopping list that minimizes food waste.
 
 Expert Consultation: A platform to connect users with professional dietitians for verified meal plan audits.
-
-Multilingual Support: Expanding the interface to support regional languages to make the app accessible to a wider range of households.
 
 
 ## Demo Link
