@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block title %}AI Planner - NutriPlan{% endblock %}
+
+{% block content %}
+<div class="center-card-layout" style="background-color: #e3f2fd;"> 
+    <div style="width: 100%; max-width: 650px;">
+        <div style="text-align: center; margin-bottom: 32px;">
+            <h1 class="page-title" style="color: var(--green-dark);">AI Nutrition Planner 🤖</h1>
+            <p class="page-subtitle">Personalized journey starts here. Fill your details below.</p>
+        </div>
+
+        <form method="POST" action="{{ url_for('generate_plan') }}" class="card" style="box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: none;">
+            
+            <div class="grid grid-2">
+                <div class="form-group">
+                    <label class="form-label" style="color: var(--green-primary);">Weight (kg)</label>
+                    <input type="number" name="weight" class="form-input" placeholder="e.g. 70" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" style="color: var(--green-primary);">Height (cm)</label>
+                    <input type="number" name="height" class="form-input" placeholder="e.g. 175" required>
+                </div>
+            </div>
+
+            <div class="grid grid-2">
+                <div class="form-group">
+                    <label class="form-label" style="color: var(--green-primary);">Age</label>
+                    <input type="number" name="age" class="form-input" placeholder="Years" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" style="color: var(--green-primary);">Gender</label>
+                    <select name="gender" class="form-input" required style="height: 48px; background: white;">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" style="color: var(--green-primary);">Activity Level</label>
+                <div class="diet-options" style="grid-template-columns: 1fr 1fr 1fr;">
+                    <label class="diet-option" onclick="selectOnly(this, 'activity')">
+                        <input type="radio" name="activity" value="low" required style="display:none;"> 
+                        <div style="text-align:center; width:100%;">🛋️<br>Low</div>
+                    </label>
+                    <label class="diet-option" onclick="selectOnly(this, 'activity')">
+                        <input type="radio" name="activity" value="medium" style="display:none;"> 
+                        <div style="text-align:center; width:100%;">🚶<br>Medium</div>
+                    </label>
+                    <label class="diet-option" onclick="selectOnly(this, 'activity')">
+                        <input type="radio" name="activity" value="high" style="display:none;"> 
+                        <div style="text-align:center; width:100%;">🏃<br>High</div>
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" style="color: var(--green-primary);">Your Goal</label>
+                <div class="diet-options">
+                    <label class="diet-option" onclick="selectOnly(this, 'goal')">
+                        <input type="radio" name="goal" value="loss" required style="display:none;"> 
+                        <span>📉</span> Weight Loss
+                    </label>
+                    <label class="diet-option" onclick="selectOnly(this, 'goal')">
+                        <input type="radio" name="goal" value="gain" style="display:none;"> 
+                        <span>💪</span> Muscle Gain
+                    </label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-full mt-20" style="font-size: 16px; padding: 15px; background-color: #ff8a80; color: white; border: none; box-shadow: 0 4px 15px rgba(255, 138, 128, 0.4); cursor: pointer; border-radius: 8px;">
+                Generate My AI Plan 🚀
+            </button>
+        </form>
+
+        <div class="tip-card" style="margin-top: 24px; background-color: #fff; border-left: 4px solid #ff8a80;">
+            <p class="tip-title">💡 Vision:</p>
+            <p class="tip-text">This tool was envisioned by Sarthak to help optimize nutrition and take a step toward his goal of overcoming starvation and malnutrition in India</p>
+        </div>
+    </div>
+</div>
+
+<script>
+function selectOnly(element, groupName) {
+    const parent = element.parentElement;
+    parent.querySelectorAll('.diet-option').forEach(opt => {
+        opt.classList.remove('selected');
+        opt.style.backgroundColor = "white";
+        opt.style.borderColor = "#e0e0e0";
+    });
+    
+    element.classList.add('selected');
+    element.style.backgroundColor = "#ffebee"; 
+    element.style.borderColor = "#ff8a80";
+    
+    const radio = element.querySelector('input[type="radio"]');
+    radio.checked = true;
+}
+</script>
+{% endblock %}
