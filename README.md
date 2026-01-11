@@ -53,5 +53,33 @@ Expert Consultation: A platform to connect users with professional dietitians fo
 ## Demo Link
 <a href="https://drive.google.com/file/d/1KWwXuGa_n2bmEEMI_kZJRp-oRBDO4YIp/view?usp=sharing ">Click To watch Demo Video</a>
 
+
+## 👥 Project Contributors (Team NutriPlan)
+## Saksham (sakshampantola) — Backend & Database Lead 🛠️
+
+Developed the Flask server and SQLAlchemy database architecture.
+
+Integrated frontend components with backend APIs.
+
+## Sarthak (s-2007) — ML Model Specialist 🧠
+
+Built and optimized the Machine Learning model for nutritional planning.
+
+Developed the logic for meal recommendations.
+
+## Himanshu (himanshu07-droid) — UI/UX Designer 🎨
+
+Designed the user interface and handled all CSS styling.
+
+Created the responsive dashboard layout.
+
+## Chaitanya (Chaitanya496-ux) — Template & File Architect 📂
+
+Organized the project directory and template folder structure.
+
+Managed core project files and environment configuration.
+
+
+
 ## Conclusion
 NutriPlan aims to promote better nutrition for families by combining familiar cooking habits with modern AI-driven structure. By centralizing data through a secure database and encouraging shared responsibility via smart notifications, the application helps make healthy living a sustainable household habit.
