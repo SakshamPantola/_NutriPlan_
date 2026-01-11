@@ -12,7 +12,7 @@ User Accounts & Security: Mandatory signup and login to maintain personalized nu
 
 AI-Based Meal Planning: Smart logic that organizes selected dishes into a nutritionally balanced daily or weekly schedule.
 
-PostgreSQL Database: Reliable storage for user credentials, custom dish data, and historical meal logs.
+SQLAlchemy Database: Reliable storage for user credentials, custom dish data, and historical meal logs.
 
 Automated WhatsApp Integration: Instant ingredient alerts sent to family members to streamline grocery shopping.
 
@@ -37,7 +37,7 @@ Frontend: HTML, CSS, JavaScript
 
 Backend: Python (Flask)
 
-Database: PostgreSQL
+Database: SQLAlchemy
 
 Intelligence: AI-driven recommendation algorithms
 
@@ -53,8 +53,8 @@ Expert Consultation: A platform to connect users with professional dietitians fo
 Multilingual Support: Expanding the interface to support regional languages to make the app accessible to a wider range of households.
 
 
-## Prototype Link
-{}
+## Demo Link
+{ https://drive.google.com/file/d/1KWwXuGa_n2bmEEMI_kZJRp-oRBDO4YIp/view?usp=sharing }
 
 ## Conclusion
 NutriPlan aims to promote better nutrition for families by combining familiar cooking habits with modern AI-driven structure. By centralizing data through a secure database and encouraging shared responsibility via smart notifications, the application helps make healthy living a sustainable household habit.
