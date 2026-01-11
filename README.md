@@ -44,8 +44,6 @@ Intelligence: AI-driven recommendation algorithms
 ## Future Scope
 Personalized Health Profiles: Customizing meal plans based on specific health goals (e.g., weight loss, muscle gain) or medical conditions (e.g., diabetes, hypertension).
 
-Machine Learning Integration: Implementing predictive models to suggest recipes based on seasonal availability and historical family preferences.
-
 Grocery List Optimization: Automatically generating a consolidated weekly shopping list that minimizes food waste.
 
 Expert Consultation: A platform to connect users with professional dietitians for verified meal plan audits.
@@ -54,7 +52,7 @@ Multilingual Support: Expanding the interface to support regional languages to m
 
 
 ## Demo Link
-{ https://drive.google.com/file/d/1KWwXuGa_n2bmEEMI_kZJRp-oRBDO4YIp/view?usp=sharing }
+<a href="https://drive.google.com/file/d/1KWwXuGa_n2bmEEMI_kZJRp-oRBDO4YIp/view?usp=sharing ">Click To watch Demo Video</a>
 
 ## Conclusion
 NutriPlan aims to promote better nutrition for families by combining familiar cooking habits with modern AI-driven structure. By centralizing data through a secure database and encouraging shared responsibility via smart notifications, the application helps make healthy living a sustainable household habit.
