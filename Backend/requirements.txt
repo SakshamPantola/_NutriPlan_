@@ -1,4 +1,0 @@
-Flask
-Flask-WTF
-gunicorn
-email-validator
