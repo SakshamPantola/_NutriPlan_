@@ -22,6 +22,7 @@ Enhanced UI/UX: A refined, professional interface for seamless navigation betwee
 
 
 
+<img width="1918" height="793" alt="Screenshot 2026-01-11 232346" src="https://github.com/user-attachments/assets/3c78081a-ef95-43b2-8953-ffcb7c9e6884" />
 
 
 
